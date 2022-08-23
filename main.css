@@ -1,0 +1,140 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+
+html{
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body{
+  background-image: linear-gradient(rgb(5, 120, 228) 50%, rgb(255, 255, 255));
+  height:100%;
+  color:rgba(0,0,0,0.6);
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+
+main{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+
+section{  height: 100vh;
+ }
+
+
+.student_form{
+  width:48vw;
+}
+
+.student_form .heading, .student_form .form{
+  display:flex;
+  justify-content:center;
+}
+
+.student_form{
+  font-size:1.25rem;
+  font-weight:bold;
+}
+
+.student_form .form .inner-warp .name:before{
+  content:"Name";
+  display:block;
+}
+
+.student_form .form .inner-warp .email:before{
+  content:"E-mail";
+  display:block;
+}
+
+.student_form .form .inner-warp .website:before{
+  content:"Website";
+  display:block;
+}
+
+.student_form .form .inner-warp .image:before{
+  content:"Image link";
+  display:block;
+}
+.student_form .form .inner-warp .gender input[type=radio], .student_form .form .inner-warp .skills input[type=checkbox]{
+  margin-left:7rem;
+}
+.student_form .form .inner-warp .gender input[type=radio]:before, .student_form .form .inner-warp .skills input[type=checkbox]:before{
+  margin-left:-7rem;
+  font-weight:bold;
+}
+.student_form .form .inner-warp .gender #male:before{
+  display:inline;
+  content:"Male";
+  display:block;
+}
+
+.student_form .form .inner-warp .gender #female:before{
+  display:inline;
+  content:"Female";
+  display:block;
+}
+
+.student_form .form .inner-warp .skills #html:before{
+  display:inline;
+  content:"Html";
+  display:block;
+}
+.student_form .form .inner-warp .skills #css:before{
+  display:inline;
+  content:"Css";
+  display:block;
+}
+.student_form .form .inner-warp .skills #js:before{
+  display:inline;
+  content:"Js";
+  display:block;
+}
+.student_form .form .inner-warp .skills #rjs:before{
+  display:inline;
+  content:"React js";
+  display:block;
+}
+
+
+.student_data{
+  width:52vw;
+  max-height:100vh;
+  padding-top:5rem;
+  padding-right:5rem;
+  overflow:hidden;
+  overflow-y: scroll;
+}
+
+.student_data .student{
+  display:flex;
+  justify-content:space-between;
+  height:6.5rem;
+  background-color:rgba(250, 250, 250, 0.4);
+  border-radius:1rem;
+  padding:0.8rem;
+  font-weight:450;
+  letter-spacing:0.1rem;
+  word-spacing:0.2rem;
+  font-size:0.85rem;
+  margin-bottom:3rem;}
+
+
+.student_data .student .name i{
+  font-size:2rem;
+  padding-left:1rem;
+}
+
+.student_data .student div{
+  display:flex;
+  align-items:center;
+}
+
+.student_data .student .image img{
+  height:5rem;
+  width:5rem;
+  border-radius:50%;
+}
+
+
+
