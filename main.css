@@ -6,7 +6,7 @@ html{
 }
 
 body{
-  background-image: linear-gradient(rgb(5, 120, 228) 50%, rgb(255, 255, 255));
+  background-image: linear-gradient(#77cadd 2%,#0b7dc1 50%);
   height:100%;
   color:rgba(0,0,0,0.6);
   font-family: Verdana, Tahoma, sans-serif;
@@ -103,7 +103,6 @@ section{  height: 100vh;
   padding-top:5rem;
   padding-right:5rem;
   overflow:hidden;
-  overflow-y: scroll;
 }
 
 .student_data .student{
